@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    background-image:    url(https://i.pinimg.com/originals/be/f8/9c/bef89c0c96720bbe87774b71fed524a7.gif);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+     
+}
+.frame h1 {
+   margin-top: 0px;
+   margin-right: 0px;
+}
+.jukebox .artwork {
+    width: 300px;
+    padding-top: 0px;
+}
+
+.jukebox {
+    margin-top: 100px;
+    width: 50%;
+    text-align: center;
+    padding-left: 200px;
+}
+.jukebox .controls {
+    font-size: 3em;
+    color: #555;
+}
+.jukebox .currentSong {
+    border: 2px solid rgb(255,255,255);
+    border-radius: 2em;
+    height: 40px;
+
+}
+.jukebox .controls .fa {
+    transition: color 0.5s;
+    cursor: pointer;
+    color: white;
+
+}
+.jukebox .controls .fa:hover {
+    color: white;
+
+}
+
+
+ .head{
+     width: 100%;
+     height: 300px;
+     text-align: center;
+
+}
+
+.frame{
+    text-align: center;
+    width: 50%;
+    padding-left: 350px;
+    color: white;
+    padding-top: -60px;
+
+}
+
+.frame h1 {
+    font-size: 50px;
+}
+
+.frame .currentSong {
+    font-size: 30px;
+}
+
+
+}
